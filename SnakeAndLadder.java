@@ -29,7 +29,7 @@ public class SnakeAndLadder {
 								 System.out.println("Player 1 turns");
 							 }
 							 else{
-								 player2Position = (player2Position + diceRoll) <= maxPosition ? (player2Position + diceRoll) : player2Position;							System.out.println("PLAYER 2 Turn");
+								 player2Position = (player2Position + diceRoll) <= maxPosition ? (player2Position + diceRoll) : player2Position;
 								 System.out.println("Player 2 turns");
 							 }
 							 count++;
